@@ -27,8 +27,7 @@ The retained EMG bandwidth is: [30 Hz – 500]Hz
 ---
 
 * FPC Connector Interface
-The board includes an FPC connector designed to interface with a flexible PCB dedicated to EMG signal acquisition.
- Flexible electrode PCB file:
-https://github.com/SarahBounab/PCB-design/tree/ada3e4e68fcf81e555a5e3255949ccac19cf577a/Flexible_PCB
+The board includes an FPC connector designed to interface with a flexible PCB dedicated to EMG signal acquisition
+[Flexible PCB Repository](https://github.com/SarahBounab/PCB-design/tree/ada3e4e68fcf81e555a5e3255949ccac19cf577a/Flexible_PCB)
 
 
