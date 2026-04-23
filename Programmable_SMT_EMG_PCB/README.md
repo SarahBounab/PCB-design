@@ -6,20 +6,20 @@ Unlike [the standalone analog acquisition board](https://github.com/SarahBounab/
 ---
 
 The board is divided into several functional blocks:
-*EMG Acquisition & Processing Block
+* EMG Acquisition & Processing Block
 This stage is based on the same analog architecture used in the standalone EMG acquisition board.
 It includes:
 
-  *Instrumentation amplification for low-amplitude EMG signals
-  *Analog filtering stages
-  *50 Hz notch filtering for power-line interference 
-  *Signal amplification 
+  * Instrumentation amplification for low-amplitude EMG signals
+  * Analog filtering stages
+  * 50 Hz notch filtering for power-line interference 
+  * Signal amplification 
   
 The retained EMG bandwidth is: [30 Hz – 500]Hz
 
 ---
 
-*ESP32 Processing Unit for:
+* ESP32 Processing Unit for:
    * Real-time signal acquisition
    * Digital filtering (1st order butterworth filter)
    * Feature extraction
