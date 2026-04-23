@@ -1,7 +1,7 @@
 # Programmable EMG Acquisition & Classification Board
 
 This PCB is a programmable SMT based embedded system designed for realtime EMG signal acquisition, processing, and classification for biomedical control applications.
-Unlike the standalone analog acquisition board, this version integrates an ESP32 microcontroller directly on the PCB, enabling onboard signal processing, feature extraction, and machine learning inference.
+Unlike [the standalone analog acquisition board](https://github.com/SarahBounab/PCB-design/tree/main/EMG_Acquisition_Board), this version integrates an ESP32 microcontroller directly on the PCB, enabling onboard signal processing, feature extraction, and machine learning inference.
 
 ---
 
@@ -9,10 +9,12 @@ The board is divided into several functional blocks:
 *EMG Acquisition & Processing Block
 This stage is based on the same analog architecture used in the standalone EMG acquisition board.
 It includes:
+
   *Instrumentation amplification for low-amplitude EMG signals
   *Analog filtering stages
   *50 Hz notch filtering for power-line interference 
   *Signal amplification 
+  
 The retained EMG bandwidth is: [30 Hz – 500]Hz
 
 ---
