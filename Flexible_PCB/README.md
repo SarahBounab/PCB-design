@@ -27,6 +27,6 @@ A custom footprint for the **gold fingers** was designed to ensure electrical an
 ---
 
 Main EMG acquisition board:
-[PASTE LINK HERE]
+Programmable_SMT_EMG_PCB
 
 
