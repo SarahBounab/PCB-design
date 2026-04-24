@@ -20,25 +20,16 @@ A preamplification gain of approximately **200 ** was implemented in order to am
 
 ---
 
-* A high-pass filter was designed to remove DC components and baseline drift from the ECG signal with a cutoff frequency of
-[
-f_c \approx 0.5 \text{ Hz}
-]
+* A high-pass filter was designed to remove DC components and baseline drift from the ECG signal with a cutoff frequency of **0.5 Hz**.
 
 ---
 
-* A low-pass filter was implemented to attenuate high-frequency noise while preserving the useful ECG signal bandwidth with a cutoff frequency of
-[
-f_c \approx 100 \text{ Hz}
-]
+* A low-pass filter was implemented to attenuate high-frequency noise while preserving the useful ECG signal bandwidth with a cutoff frequency of **100 Hz**.
+
 
 ---
 
-* A non-inverting amplification stage based on the **TL082 operational amplifier** was added to further amplify the conditioned ECG signal with a voltage gain:
-
-[
-A_v \approx 20 \text{ V/V}
-]
+* A non-inverting amplification stage based on the **TL082 operational amplifier** was added to further amplify the conditioned ECG signal with **a voltage gain of 20.**
 
 ---
 
